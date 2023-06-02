@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node Bot_GloryDream413.js"
+  },
+  "dependencies": {
+    "axios": "^1.3.1",
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.59.0",
+    "openai": "^3.1.0"
+  }
+}
