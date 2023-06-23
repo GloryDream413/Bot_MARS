@@ -127,11 +127,11 @@ bot.on('callback_query', async (query) => {
   switch (buttonPressed) {
     case 'btnMars':
       nFlag = 1;
-      bot.sendMessage(chatId, "To Generating a great Image for Mars @" + username + " 👀🔥")
+      bot.sendMessage(chatId, "To generate a great Image for Mars @" + username + " 👀🔥")
       break;
     case 'btnMoon':
       nFlag = 2;
-      bot.sendMessage(chatId, "To Generating a great Image for Moon @" + username + " 👀🔥")
+      bot.sendMessage(chatId, "To generate a great Image for Moon @" + username + " 👀🔥")
       break;
   }
   // Answer the callback query to remove the "Loading" status
