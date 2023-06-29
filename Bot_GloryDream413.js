@@ -141,10 +141,10 @@ bot.on('callback_query', async (query) => {
   // const image = await generateImage(match[1]);
   let userQuery = '';
   if (nFlag == 1) {
-    userQuery = matchStr + ', on the Mars planet, colorful 4k';
+    userQuery = matchStr + ', clear image on the Mars planet, colorful 4k';
   }
   else if (nFlag == 2) {
-    userQuery = matchStr + ', on the Moon planet, colorful 4k';
+    userQuery = matchStr + ', clear image on the Moon planet, colorful 4k';
   }
 
 
@@ -164,7 +164,7 @@ bot.on('callback_query', async (query) => {
   }
   if (response.output) {
     bot.sendPhoto(chatId, response.output[response.output.length - 1], {
-      caption: 'Generation for @' + username + ': ' + matchStr + '\nShare this image on twitter and use $EVERMARS',
+      caption: 'Generation for @' + username + ': ' + matchStr + '\nShare this image on twitter and use #EVERMARS',
       reply_to_message_id: query.message.message_id
     })
     console.log('Generation for @' + username)
